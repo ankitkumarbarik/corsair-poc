@@ -1,0 +1,32 @@
+{
+  "name": "corsair-poc",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.2.2",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.3.173",
+    "@corsair-dev/cli": "^0.1.19",
+    "@corsair-dev/github": "^0.1.9",
+    "@corsair-dev/gmail": "^0.1.4",
+    "@corsair-dev/mcp": "^0.1.22",
+    "better-sqlite3": "^12.10.0",
+    "corsair": "^0.1.76",
+    "dotenv": "^17.4.2"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13"
+  }
+}
